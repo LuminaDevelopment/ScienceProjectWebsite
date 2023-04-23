@@ -12,6 +12,7 @@ body {
     /*align-items: center; */
     min-height: 100vh;
     margin: 0;
+    background-color: rgb(24, 24, 24);
 }
 
 .periodic-table {
@@ -30,10 +31,10 @@ body {
 }
 
 .title {
+  padding-top: 100px;
+  text-align: center;
   font-size: 55px;
   color: white;
-  top: 25%;
-  left: 25%;
   text-shadow: 0 0 50px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #ff00de, 0 0 17.5px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 37.5px #ff00de;
   animation: float 3s ease-in-out infinite;
 }
